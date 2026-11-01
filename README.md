@@ -33,3 +33,6 @@ Python | LangGraph | LangChain | Ollama | Qdrant | FastAPI | Streamlit | Docker 
 Core application implemented and tested locally using Docker.
 
 Additional architecture documentation and demonstration materials are in progress.
+## System Architecture
+
+View the [System Architecture Diagram](docs/architecture.md) to understand how Streamlit, FastAPI, JWT authentication, LangGraph, Qdrant, and Ollama work together.
