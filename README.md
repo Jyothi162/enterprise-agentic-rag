@@ -23,19 +23,39 @@ An AI-powered enterprise knowledge assistant built using Python, LangGraph, Lang
 - HR users can access authorized HR documents
 - Employee users are restricted from confidential HR information
 - Admin document uploads are protected by authorization checks
+## System Architecture
+
+View the [System Architecture Diagram](docs/architecture.md) to understand how Streamlit, FastAPI, JWT authentication, LangGraph, Qdrant, and Ollama work together.
 
 ## Technology Stack
 
-Python | LangGraph | LangChain | Ollama | Qdrant | FastAPI | Streamlit | Docker | pytest
+| Component | Technology |
+|---|---|
+| Programming language | Python 3.11 |
+| Large language model | Llama 3.2 via Ollama |
+| AI agent orchestration | LangGraph |
+| LLM integration | LangChain |
+| Retrieval-Augmented Generation | Qdrant, Ollama embeddings, vector similarity search |
+| Embedding model | nomic-embed-text via Ollama |
+| Vector database | Qdrant |
+| Backend | FastAPI, Uvicorn |
+| Frontend | Streamlit |
+| Authentication | JSON Web Tokens (JWT), PyJWT |
+| Authorization | Role-Based Access Control (Employee, HR, IT, Admin) |
+| Document processing | TXT, PDF, DOCX ingestion |
+| Answer verification | VERIFIED / WITHHELD response handling |
+| Security testing | pytest, RBAC and admin-upload tests |
+| Containerization | Docker, Docker Compose |
+| API documentation | FastAPI Swagger UI |
+| Configuration | Python dotenv, environment variables |
+| Version control | Git, GitHub |
 
 ## Project Status
 
 Core application implemented and tested locally using Docker.
 
 Additional architecture documentation and demonstration materials are in progress.
-## System Architecture
 
-View the [System Architecture Diagram](docs/architecture.md) to understand how Streamlit, FastAPI, JWT authentication, LangGraph, Qdrant, and Ollama work together.
 
 ## Installation and Setup
 
