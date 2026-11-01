@@ -1,0 +1,6 @@
+Enterprise AI Training Policy
+
+All employees must complete annual AI security awareness training.
+
+The training covers safe use of AI tools, data privacy,
+and recognizing prompt injection attacks.

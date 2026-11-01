@@ -1,0 +1,38 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+
+# Uploaded documents
+data/uploads/
+
+# Local temporary files
+*.log
+.DS_Store
+# Local knowledge documents
+data/documents/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local vector database storage
+qdrant_storage/
+chroma_db/
+
+# Additional environment files
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.idea/
+Thumbs.db
